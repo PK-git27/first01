@@ -13,6 +13,7 @@ public class Person {
 		this.gender=gender;
 	}
 	
+	
 	public boolean marry(Person p){
 		if(this.gender!="男"&&this.gender!="女"){
 			System.out.println("没有性别开什么玩笑？？");
